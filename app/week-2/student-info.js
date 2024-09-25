@@ -10,4 +10,3 @@ const StudentInfo = () => {
     );
 }
 export default StudentInfo;
-        
