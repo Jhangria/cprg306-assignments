@@ -30,7 +30,7 @@ export default function NewItem() {
   };
 
   return (
-    <div className="bg-gray-800 min-h-screen flex flex-col items-center">
+    <div className="flex flex-col items-center justify-center bg-gray-800">
       <form onSubmit={handleSubmit} className="mt-8 max-w-md w-full p-6 bg-grey-800 text-white rounded-lg shadow-lg">
         <div className="mb-4">
           <label className="block text-sm font-medium" htmlFor="name"></label>
