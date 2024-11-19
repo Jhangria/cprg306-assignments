@@ -1,7 +1,7 @@
 "use client";
 
 import { useUserAuth } from "./_utils/auth-context";
-import SecurePage from "./shopping-list/page";
+import SecurePage from "../week-10/shopping-list/page";
 
 export default function Page() {
     const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
